@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    visibility: visible;
+}
+
+.response{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .response{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: black;
+    }
+}
+
+.navbar-brand{
+    width:30%;
+}
+
+.navbar{
+    height: 60px;
+    padding: 10px 20px;
+}
+
+nav ul{
+    gap: 12px;
+}
+
+.nav-link{
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo{
+    height: 100px;
+    transition: all 0.3s ease;
+    padding: 0px;
+}
+
+.header.hidden{
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+.header.show{
+    background-color: white;
+    color: black;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.header.show div a .logo{
+    content: url('assets/Tesla\ logo.png');
+    height: 15px;
+}
+
+.nav-item{
+    cursor: pointer;
+    display: inline;
+}
+
+.nav-item:hover{
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    color: black;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+
+.models{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .models{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #vehicles:hover .dropdown, #vehicles .dropdown:hover .dropdown, #energy:hover .dropdown, #energy .dropdown:hover .dropdown, #charging:hover .dropdown, #charging .dropdown:hover .dropdown, #discover:hover .dropdown, #discover .dropdown:hover .dropdown,  #shop:hover .dropdown, #shop .dropdown:hover .dropdown{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: white;
+        padding: 50px;
+        color: black;
+    }
+    
+}
+
+.models li{
+    margin: 10px;
+    text-align: center;
+}
+
+.models li a{
+    text-decoration: none;
+    color: #111
+}
+
+.models li img{
+    width: 150px;
+}
+
+.options{
+    list-style: none;
+    border-left: 1px solid grey;
+}
+
+.options li{
+    margin-bottom: 8px;
+}
+
+.items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items li img{
+    width: 150px;
+}
+
+#vehicles:hover .dropdown, #vehicles .dropdown:hover .dropdown, #energy:hover .dropdown, #energy .dropdown:hover .dropdown, #charging:hover .dropdown, #charging .dropdown:hover .dropdown, #discover:hover .dropdown, #discover .dropdown:hover .dropdown,  #shop:hover .dropdown, #shop .dropdown:hover .dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+
+
+
+.hero-section{
+    height: 100vh;
+    width: 100vw !important;
+    background-image: url('assets/Model-Y.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.brief{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 70px;
+}
+
+.hero-section div .fs-3{
+    border-bottom: 1px solid white;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 50px;
+}
+
+.btn-light, .btn-blue{
+    padding: 5px 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.hero-section-1{
+    background-image: url('assets/Model-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-2{
+    background-image: url('assets/Model-X.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-2 .brief h3{
+    border-bottom: none;
+}
+
+.hero-section-2 .brief p{
+    border-bottom: 1px solid white;
+}
+
+.btn-primary{
+    background-color: #3e6ae1;
+}
+
+.hero-section-3{
+    background-image: url('assets/Model-S.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-3 .brief h3{
+    border-bottom: none;
+}
+
+.hero-section-3 .brief p{
+    border-bottom: 1px solid white;
+}
+
+.hero-section-4{
+    background-image: url('assets/Cyber-truck.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-4 .brief h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-grey{
+    padding: 5px 60px;
+    margin-right: 10px;
+    background-color: #111;
+    color: #a2a3a5;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.hero-section-5{
+    background-image: url('assets/Solar-Panels.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-6{
+    background-image: url('assets/Solar-roof.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section-6 .brief h4{
+    border-bottom: none;
+}
+
+.hero-section-7{
+    background-image: url('assets/powerwall.avif');
+    background-size: cover;
+    background-position: center;   
+}
+
+.hero-section-8{
+    background-image: url('assets/accessories.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    color: white;
+}
+
+.top{
+    width: 50%;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.top p{
+    font-size: 12px;
+}
+
+.bottom{
+    display: flex;
+    gap: 10px;
+}
+
+.bottom p{
+    font-size: 14px;
+}
+
+.page{
+    display: none;
+}
+
+.modal-body p{
+    color: red;
+}
+
+.offcanvas{
+    width: 100vw;
+}
+
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.price-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.modal-body p{
+    color: gray;
+}
+
+.modal-body h5{
+    margin-top: 20px;
+}

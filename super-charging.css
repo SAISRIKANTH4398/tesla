@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 100;
+    color: white;
+    width: 100%;
+    visibility: visible;
+}
+
+.navbar{
+    height: 60px;
+    padding: 10px 20px;
+}
+
+nav ul{
+    gap: 12px;
+}
+
+.nav-link{
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo{
+    height: 100px;
+    transition: all 0.3s ease;
+    padding: 0px;
+}
+
+.header.hidden{
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+.header.show{
+    background-color: white;
+    color: black;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.header.show div a .logo{
+    content: url('assets/Tesla\ logo.png');
+    height: 15px;
+}
+
+.nav-item{
+    cursor: pointer;
+    display: inline;
+}
+
+.nav-item:hover{
+    background-color: #c6c6c6;
+    border-radius: 10px;
+    color: black;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+
+.models{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.models li{
+    margin: 10px;
+    text-align: center;
+}
+
+.models li a{
+    text-decoration: none;
+    color: #111
+}
+
+.models li img{
+    width: 150px;
+}
+
+.options{
+    list-style: none;
+    border-left: 1px solid grey;
+}
+
+.options li{
+    margin-bottom: 8px;
+}
+
+.items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items li img{
+    width: 150px;
+}
+
+#vehicles:hover .dropdown, #vehicles .dropdown:hover .dropdown, #energy:hover .dropdown, #energy .dropdown:hover .dropdown, #charging:hover .dropdown, #charging .dropdown:hover .dropdown, #discover:hover .dropdown, #discover .dropdown:hover .dropdown,  #shop:hover .dropdown, #shop .dropdown:hover .dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+
+.video-container{
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    z-index: -10;
+}
+
+.main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+}
+
+.main-bottom{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bottom div{
+    margin-right: 25px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 30%;
+    padding: 50px;
+}
+
+.img-container{
+    width: 70%;
+    position: relative;
+}
+
+.locations{
+    width: 100%;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 4%;
+}
+
+.items div{
+    margin: 0px 30px;
+    color: white;
+}

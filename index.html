@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Cars, Solar & Clean Energy | Tesla</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="assets/Tesla Red logo.svg"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse response" id="navbarResponsive">
+                    <div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item" id="vehicles">
+                                <a class="nav-link">Vehicles</a>
+                                <div class="dropdown">
+                                    <ul class="models">
+                                        <li>
+                                            <a href="#model-s">
+                                                <img src="assets/model-s-mini.avif"/>
+                                                <h5>Model S</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#model-3"><img src="assets/model-3-mini.avif"/>
+                                                <h5>Model 3</h5></a>
+                                        </li>
+                                        <li>
+                                            <a href="#model-x">
+                                                <img src="assets/model-X-mini.avif"/>
+                                                <h5>Model X</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#model-y">
+                                                <img src="assets/model-Y-mini.avif"/>
+                                                <h5>Model Y</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#cybertruck">
+                                                <img src="assets/cybertruck-mini.avif"/>
+                                                <h5>Cybertruck</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <img src="assets/help-me-choose.avif"/>
+                                            <h5>Help me Choose</h5>
+                                        </li>
+                                    </ul>
+                                    <ul class="options">
+                                        <li>Inventory</li>
+                                        <li>Used Cars</li>
+                                        <li>Demo Drive</li>
+                                        <li>Trade-In</li>
+                                        <li>Compare</li>
+                                        <li>Help me Charge</li>
+                                        <li>Fleet</li>
+                                        <li>Semi</li>
+                                        <li>Roadster</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item" id="energy">
+                                <a class="nav-link">Energy</a>
+                                <div class="dropdown">
+                                    <ul class="models">
+                                        <li>
+                                            <a href="#solarpanels">
+                                                <img src="assets/solar-panels-mini.avif"/>
+                                                <h5>Solar Panels</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#solarroof">
+                                                <img src="assets/solor-roof-mini.avif"/>
+                                                <h5>Solar Roof</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#powerwall">
+                                                <img src="assets/powerwall-mini.avif"/>
+                                                <h5>Powerwall</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <img src="assets/mega-pack-mini.avif"/>
+                                            <h5>Megapack</h5>
+                                        </li>
+                                    </ul>
+                                    <ul class="options">
+                                        <li>Schedule a Consultation</li>
+                                        <li>Why Solar</li>
+                                        <li>Incentives</li>
+                                        <li>Support</li>
+                                        <li>Partner with Tesla</li>
+                                        <li>Commercial</li>
+                                        <li>Utilities</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item" id="charging">
+                                <a class="nav-link">Charging</a>
+                                <div class="dropdown">
+                                    <ul class="models">
+                                        <li>
+                                            <a href="charging.html">
+                                              <img src="assets/charging-mini.avif"/>
+                                              <h5>Charging</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="home-charging.html">
+                                                <img src="assets/home-charging-mini.avif"/>
+                                                <h5>Home Charging</h5>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="super-charging.html">
+                                                <img src="assets/super-charging-mini.avif"/>
+                                                <h5>Super Charging</h5>
+                                            </a> 
+                                        </li>
+                                    </ul>
+                                    <ul class="options">
+                                        <li>Help me Charge</li>
+                                        <li>Charging Calculator</li>
+                                        <li>Charging with NACS</li>
+                                        <li>Supercharger voting</li>
+                                        <li>Host a Supercharger</li>
+                                        <li>Commercial Charging</li>
+                                        <li>Host Wall Connectors</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item" id="discover">
+                                <a class="nav-link">Discover</a>
+                                <div class="dropdown ">
+                                    <ul class="options" style="border-left: 0px;">
+                                        Resources
+                                        <li>Demo Drive</li>
+                                        <li>Insurance</li>
+                                        <li>Military Purchase Program</li>
+                                        <li>Video Guides</li>
+                                        <li>Customer Stories</li>
+                                        <li>Events</li>
+                                    </ul>
+                                    <ul class="options" style="border-left: 0px;">
+                                        Location Services
+                                        <li>Find Us</li>
+                                        <li>Find a Collision Center</li>
+                                        <li>Find a Certified Installer</li>
+                                    </ul>
+                                    <ul class="options" style="border-left: 0px;">
+                                        Company
+                                        <li>About Us</li>
+                                        <li>Careers</li>
+                                        <li>Investor Relations</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item" id="shop">
+                                <a class="nav-link">Shop</a>
+                                <div class="dropdown">
+                                    <ul class="items">
+                                        <li>
+                                            <img src="assets/charge-mini.avif"/>
+                                            <h6>Charging</h6>
+                                        </li>
+                                        <li>
+                                            <img src="assets/tyre-mini.avif"/>
+                                            <h6>Vehicle Accessories</h6>
+                                        </li>
+                                        <li>
+                                            <img src="assets/apparel-mini.avif"/>
+                                            <h6>Apparel</h6>
+                                        </li>
+                                        <li>
+                                            <img src="assets/lifestyle-mini.avif"/>
+                                            <h6>Life Style</h6>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                          </svg></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                              </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 hero-section" id="model-y">
+                <!-- <img class="image" src="assets/Model-Y.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1"> MODEL Y</h1>
+                    <h3 class="fs-3">0$ Due at Signing</h3>
+                    <p class="fs-6"> From $31,490</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-blue btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#modelY">Order Now</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="modelY">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="model-Y-images" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/model-y-1.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-y-2.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-y-3.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#model-Y-images" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#model-Y-images" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <div class="model-details">
+                                <h3 class="offcanvas-title" id="offcanvasRightLabel">MODEL Y</h3>
+                                <div class="specs">
+                                    <div class="spec">
+                                        <h5>320 mi</h5>
+                                        <p>Range(est)</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>135 mph</h5>
+                                        <p>Top Speed</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>6.5 sec</h5>
+                                        <p>0-60 mph</p>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <div>
+                                        <h4>$31,490</h4>
+                                        <p>after est. savings</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary">
+                                            Order Now
+                                        </button>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <button type='button' data-bs-toggle= 'modal' data-bs-target="#demoDrive" class="btn btn-light">Demo Drive</button>
+                    <div class="modal fade" id="demoDrive">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Fill the Details.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="contact" action="submit.html" onsubmit="return formValidate()" method="post">
+                                        <input type="text" name="username" class="form-control mb-3" id="username" placeholder="Enter Name"/>
+                                        <p id="nameError"></p>
+                                        <input type="text" name="mobileNumber" class="form-control mb-3" id="mobile" placeholder="Enter Mobile Number"/>
+                                        <p id="mobileError"></p>
+                                        <input type="text" name="emailId" class="form-control mb-3" id="email" placeholder="Enter Email Id"/>
+                                        <p id="emailError"></p>
+                                        <input type="text" name="zipCode" class="form-control mb-3" id="zipCode" placeholder="Enter ZIP CODE"/>
+                                        <p id="zipError"></p>
+                                        <input type="submit" class="form-control mb-3"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-1" id="model-3">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1"> MODEL 3</h1>
+                    <h3 class="fs-3">0$ Due at Signing</h3>
+                    <p class="fs-6"> From $34,990</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-blue btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#model3">Order Now</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="model3">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="model-Y-images" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/model-3-1.jpg" class="d-block w-100" alt="model-3">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-3-2.jpg" class="d-block w-100" alt="model-3">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-3-3.jpg" class="d-block w-100" alt="model-3">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#model-Y-images" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#model-Y-images" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <div class="model-details">
+                                <h3 class="offcanvas-title" id="offcanvasRightLabel">MODEL 3</h3>
+                                <div class="specs">
+                                    <div class="spec">
+                                        <h5>363 mi</h5>
+                                        <p>Range(est)</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>125 mph</h5>
+                                        <p>Top Speed</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>4.9 sec</h5>
+                                        <p>0-60 mph</p>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <div>
+                                        <h4>$29,990</h4>
+                                        <p>after est. savings</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary">
+                                            Order Now
+                                        </button>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <button type='button' data-bs-toggle= 'modal' data-bs-target="#demoDrive" class="btn btn-light">Demo Drive</button>  
+                    <div class="modal fade" id="demoDrive">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Fill the Details.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="contact" action="submit.html" onsubmit="return formValidate()" method="post">
+                                        <input type="text" name="username" class="form-control mb-3" id="username" placeholder="Enter Name"/>
+                                        <p id="nameError"></p>
+                                        <input type="text" name="mobileNumber" class="form-control mb-3" id="mobile" placeholder="Enter Mobile Number"/>
+                                        <p id="mobileError"></p>
+                                        <input type="text" name="emailId" class="form-control mb-3" id="email" placeholder="Enter Email Id"/>
+                                        <p id="emailError"></p>
+                                        <input type="text" name="zipCode" class="form-control mb-3" id="zipCode" placeholder="Enter ZIP CODE"/>
+                                        <p id="zipError"></p>
+                                        <input type="submit" class="form-control mb-3"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-2" id="model-x">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1"> MODEL X</h1>
+                    <h3 class="fs-3">From $65,990</h3>
+                    <p class="fs-6"> After Federal Tax Credit $7,500</p>
+                    <p class="fs-6"> and Est. Gas Saving $7,500</p>
+                    
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-blue btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#modelX">Order Now</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="modelX">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="model-Y-images" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/model-x-1.jpg" class="d-block w-100" alt="model-x">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-x-2.jpg" class="d-block w-100" alt="model-x">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-x-3.jpg" class="d-block w-100" alt="model-x">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#model-Y-images" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#model-Y-images" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <div class="model-details">
+                                <h3 class="offcanvas-title" id="offcanvasRightLabel">MODEL Y</h3>
+                                <div class="specs">
+                                    <div class="spec">
+                                        <h5>335 mi</h5>
+                                        <p>Range(est)</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>149 mph</h5>
+                                        <p>Top Speed</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>3.8 sec</h5>
+                                        <p>0-60 mph</p>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <div>
+                                        <h4>$65,990</h4>
+                                        <p>after est. savings</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary">
+                                            Order Now
+                                        </button>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <button type='button' data-bs-toggle= 'modal' data-bs-target="#demoDrive" class="btn btn-light">Demo Drive</button>
+                    <div class="modal fade" id="demoDrive">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Fill the Details.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="contact" action="submit.html" onsubmit="return formValidate()" method="post">
+                                        <input type="text" name="username" class="form-control mb-3" id="username" placeholder="Enter Name"/>
+                                        <p id="nameError"></p>
+                                        <input type="text" name="mobileNumber" class="form-control mb-3" id="mobile" placeholder="Enter Mobile Number"/>
+                                        <p id="mobileError"></p>
+                                        <input type="text" name="emailId" class="form-control mb-3" id="email" placeholder="Enter Email Id"/>
+                                        <p id="emailError"></p>
+                                        <input type="text" name="zipCode" class="form-control mb-3" id="zipCode" placeholder="Enter ZIP CODE"/>
+                                        <p id="zipError"></p>
+                                        <input type="submit" class="form-control mb-3"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-3" id="model-s">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1"> MODEL S</h1>
+                    <h3 class="fs-3">From $68,490</h3>
+                    <p class="fs-6"> After Est. Gas Saving $6,500</p>
+                    
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-blue btn-primary"  type="button" data-bs-toggle="offcanvas" data-bs-target="#modelS">Order Now</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="modelS">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="model-Y-images" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/model-y-1.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-y-2.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/model-y-3.jpg" class="d-block w-100" alt="model-y">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#model-Y-images" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#model-Y-images" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <div class="model-details">
+                                <h3 class="offcanvas-title" id="offcanvasRightLabel">MODEL S</h3>
+                                <div class="specs">
+                                    <div class="spec">
+                                        <h5>402 mi</h5>
+                                        <p>Range(est)</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>130 mph</h5>
+                                        <p>Top Speed</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>3.1 sec</h5>
+                                        <p>0-60 mph</p>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <div>
+                                        <h4>$68,490</h4>
+                                        <p>after est. savings</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary">
+                                            Order Now
+                                        </button>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <button type='button' data-bs-toggle= 'modal' data-bs-target="#demoDrive" class="btn btn-light">Demo Drive</button>
+                    <div class="modal fade" id="demoDrive">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Fill the Details.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="contact" action="submit.html" onsubmit="return formValidate()" method="post">
+                                        <input type="text" name="username" class="form-control mb-3" id="username" placeholder="Enter Name"/>
+                                        <p id="nameError"></p>
+                                        <input type="text" name="mobileNumber" class="form-control mb-3" id="mobile" placeholder="Enter Mobile Number"/>
+                                        <p id="mobileError"></p>
+                                        <input type="text" name="emailId" class="form-control mb-3" id="email" placeholder="Enter Email Id"/>
+                                        <p id="emailError"></p>
+                                        <input type="text" name="zipCode" class="form-control mb-3" id="zipCode" placeholder="Enter ZIP CODE"/>
+                                        <p id="zipError"></p>
+                                        <input type="submit" class="form-control mb-3"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-4" id="cybertruck">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1"> Cyber Truck</h1>                    
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-grey" type="button" data-bs-toggle="offcanvas" data-bs-target="#cyberTruck">Order Now</button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="cyberTruck">
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div id="model-Y-images" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/CYBERTRUCK-1.png" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/CYBERTRUCK-2.png" class="d-block w-100" alt="model-y">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/CYBERTRUCK-3.png" class="d-block w-100" alt="model-y">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#model-Y-images" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#model-Y-images" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <div class="model-details">
+                                <h3 class="offcanvas-title" id="offcanvasRightLabel">CYBER TRUCK</h3>
+                                <div class="specs">
+                                    <div class="spec">
+                                        <h5>318 mi</h5>
+                                        <p>Range(est)</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>112 mph</h5>
+                                        <p>Top Speed</p>
+                                    </div>
+                                    <div class="spec">
+                                        <h5>4.1 sec</h5>
+                                        <p>0-60 mph</p>
+                                    </div>
+                                </div>
+                                <div class="price-box">
+                                    <div>
+                                        <h4>$99,990</h4>
+                                        <p>after est. savings</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary">
+                                            Order Now
+                                        </button>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <button type='button' data-bs-toggle= 'modal' data-bs-target="#demoDrive" class="btn btn-grey">Demo Drive</button>
+                    <div class="modal fade" id="demoDrive">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5">Fill the Details.</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="contact" action="submit.html" onsubmit="return formValidate()" method="post">
+                                        <input type="text" name="username" class="form-control mb-3" id="username" placeholder="Enter Name"/>
+                                        <p id="nameError"></p>
+                                        <input type="text" name="mobileNumber" class="form-control mb-3" id="mobile" placeholder="Enter Mobile Number"/>
+                                        <p id="mobileError"></p>
+                                        <input type="text" name="emailId" class="form-control mb-3" id="email" placeholder="Enter Email Id"/>
+                                        <p id="emailError"></p>
+                                        <input type="text" name="zipCode" class="form-control mb-3" id="zipCode" placeholder="Enter ZIP CODE"/>
+                                        <p id="zipError"></p>
+                                        <input type="submit" class="form-control mb-3"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-5">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief" id="solarpanels">
+                    <h1 class="fs-1">Solar Panels</h1>
+                    <h3 class="fs-3">Schedule a Virtual Consultation</h3>                    
+                </div>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/energy/design"><button class="btn btn-primary btn-blue">Order Now</button></a>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#solarPanels">Learn More</button>
+                    <div class="modal fade" id="solarPanels" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Solar Panels</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Tesla's solar panels are part of the company's clean energy solutions aimed at reducing reliance on fossil fuels by providing solar power for homes and businesses. Tesla offers both solar panels and solar roof tiles, designed to convert sunlight into electricity to power homes. Here's an overview of Tesla's solar panels:<br>
+
+                                <h5>1. High Efficiency and Sleek Design</h5>
+                                
+                                Tesla's solar panels are known for their high-efficiency ratings, allowing them to capture more energy from the same amount of sunlight compared to many traditional solar panels. They are designed with a sleek, low-profile aesthetic to blend into rooftops, offering a modern look that minimizes the bulky appearance of older solar panel models.<br>
+                                
+                                <h5>2. Durability and Warranty</h5>
+                                
+                                Tesla provides a comprehensive warranty on their solar panels, covering both product and performance. The product warranty typically lasts 25 years, and Tesla guarantees a certain level of power output for the same period. Their panels are designed to withstand harsh weather conditions, including hail, strong winds, and snow.<br>
+                                
+                                <h5>3. Integration with Powerwall</h5>
+                                
+                                Tesla's solar panels can be integrated with the Tesla Powerwall, a home battery system that stores excess energy generated by the panels during the day. This allows homeowners to use stored energy during the night, during power outages, or when energy rates are higher. This combination enhances energy independence and cost savings.<br>
+                                
+                                <h5>4. Energy Monitoring with Tesla App</h5>
+                                
+                                Tesla provides a mobile app that allows homeowners to monitor their solar system's energy production and consumption in real-time. The app helps track how much solar energy is being generated, how much is stored in the Powerwall, and how much is being used in the home. It also shows grid usage and allows users to control the system remotely.<br>
+                                
+                                <h5>5. Cost and Installation</h5>
+                                
+                                Tesla has simplified the buying process with transparent pricing available on their website. The installation cost varies based on the size of the system and regional incentives. Tesla handles both the design and installation, typically offering a seamless installation process handled by their certified technicians or partners.<br>
+                                
+                                <h5>6. Solar Subscription (Renting)</h5>
+                                
+                                Tesla also offers a solar subscription service, where customers can rent solar panels instead of purchasing them. This lowers the upfront cost, making solar power more accessible to homeowners. Customers pay a fixed monthly fee for the solar energy generated by the panels.<br>
+                                
+                                <h5>7. Environmental Impact</h5>
+                                
+                                Tesla's solar panels contribute to reducing carbon emissions by generating renewable energy. Over time, they can significantly reduce or eliminate a household's reliance on electricity generated from fossil fuels. Tesla's energy solutions are part of the broader mission to transition the world to sustainable energy.<br>
+                                
+                                <h5>8. Solar Roof vs. Solar Panels</h5>
+                                
+                                Tesla also offers the Solar Roof, a system that replaces a conventional roof with integrated solar tiles. While the solar panels sit on top of an existing roof, the Solar Roof is a complete roofing solution that generates electricity while offering a premium aesthetic.<br>
+                                
+                                <h5>Key Benefits of Tesla Solar Panels:</h5>
+                                
+                                Long-lasting warranties (25 years).<br>
+                                
+                                Sleek design for better curb appeal.<br>
+                                
+                                High efficiency for better energy production.<br>
+                                
+                                Integration with Powerwall for energy storage.<br>
+                                
+                                Remote monitoring via the Tesla app.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-6">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief" id="solarroof">
+                    <h1 class="fs-1">Solar Roof</h1>
+                    <h4 class="fs-3">Produce Clean Energy  From Your Roof</h4>                    
+                </div>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/energy/design"><button class="btn btn-primary btn-blue">Order Now</button></a>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#solarRoofs">Learn More</button>
+                    <div class="modal fade" id="solarRoofs" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Solar Roofs</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Tesla’s Solar Roof is an innovative solar energy solution designed to integrate seamlessly into the appearance of a home while generating electricity. Unlike traditional solar panels, which are mounted on top of an existing roof, the Solar Roof replaces conventional roofing materials with solar tiles that look like regular roof shingles but have built-in photovoltaic (PV) cells to generate power. Here’s a detailed overview of Tesla’s Solar Roof:<br>
+
+                                <h5>1. Design and Aesthetics</h5>
+                                
+                                Tesla’s Solar Roof is designed to be visually appealing, offering an alternative to the bulky appearance of traditional solar panels. The tiles come in different styles, such as textured, smooth, slate, and tuscan, to blend with the architectural style of various homes. This allows homeowners to generate solar energy without compromising the aesthetics of their roof.<br>
+                                
+                                <h5>2. Durability and Strength</h5>
+                                
+                                Tesla Solar Roof tiles are built to be extremely durable and resilient. The tiles are made from tempered glass, making them highly resistant to weather conditions like hail, high winds, and extreme temperatures. Tesla claims the Solar Roof is three times stronger than standard roofing materials, offering long-term durability. The tiles are engineered to withstand harsh conditions, and the product comes with a 25-year warranty for both the power output and the tiles themselves.<br>
+                                
+                                <h5>3. Power Generation</h5>
+                                
+                                Each solar tile contains integrated solar cells that capture sunlight and convert it into electricity. The roof is made up of a combination of active solar tiles (which generate electricity) and inactive tiles (which are used to fill out the rest of the roof). Tesla customizes the installation based on a home’s energy needs, climate, and roof layout, ensuring efficient energy generation.<br>
+                                
+                                <h5>4. Integration with Tesla Powerwall</h5>
+                                
+                                Like Tesla’s solar panels, the Solar Roof can be paired with the Tesla Powerwall, a home battery system that stores excess energy generated during the day. The Powerwall allows homeowners to store surplus solar energy for use at night or during power outages, offering greater energy independence and backup power in emergencies.<br>
+                                
+                                <h5>5. Energy Monitoring via Tesla App</h5>
+                                
+                                Homeowners can monitor the energy production and consumption of their Solar Roof through the Tesla app. The app provides real-time data on how much energy the roof is generating, how much is stored in the Powerwall, and how much electricity is being used in the home. This monitoring helps homeowners manage their energy usage efficiently and track savings on their electricity bills.<br>
+                                
+                                <h5>6. Cost and Installation</h5>
+                                
+                                The Solar Roof is typically more expensive than traditional solar panels due to its dual function as both a roof and a solar energy generator. However, Tesla markets it as a cost-effective long-term solution, especially for homeowners who need to replace their roof and want to add solar power at the same time. The price includes the cost of removing the old roof, installing the Solar Roof, and adding Powerwalls if desired.<br>
+                                
+                                <h5>7. Environmental Impact</h5>
+                                
+                                By replacing traditional roofing materials with Tesla’s Solar Roof, homeowners can reduce or eliminate their reliance on grid electricity, contributing to reduced carbon emissions and promoting the use of renewable energy. Over time, the energy savings and environmental benefits can be significant.<br>
+                                
+                                <h5>8. Solar Roof vs. Solar Panels</h5>
+                                
+                                While Tesla’s traditional solar panels are installed on top of existing roofs, the Solar Roof is a fully integrated roofing system. The Solar Roof is ideal for homeowners who are building a new home or replacing an old roof, while solar panels are more cost-effective for those who already have a durable roof and just want to add solar power. The Solar Roof offers a sleek and aesthetically superior solution, but it comes with a higher upfront cost compared to solar panels.<br>
+                                
+                                <h5>Key Benefits of Tesla Solar Roof:</h5>
+                                
+                                Seamless design: Looks like a regular roof but generates electricity.<br>
+                                
+                                Durability: Made from tough, tempered glass with a 25-year warranty.<br>
+                                
+                                Energy efficiency: Produces clean, renewable energy for home use.<br>
+                                
+                                Powerwall integration: Store excess energy for nighttime or emergency use.<br>
+                                
+                                Aesthetic options: Available in different styles to match home design.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-7">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief" id="powerwall">
+                    <h1 class="fs-1">Powerwall</h1>                
+                </div>
+                <div class="buttons">
+                    <a href="https://www.tesla.com/energy/design"><button class="btn btn-primary btn-blue">Order Now</button></a>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#powerWall">Learn More</button>
+                    <div class="modal fade" id="powerWall" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="staticBackdropLabel">Power Wall</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Tesla's Powerwall is a rechargeable home battery system designed to store excess energy generated from solar panels or the grid. It provides energy backup during power outages, helps manage electricity usage, and allows homeowners to achieve greater energy independence. Here’s a detailed overview of Tesla’s Powerwall:<br>
+
+                                <h5>1. Energy Storage</h5>
+                                
+                                The Powerwall is designed to store excess energy produced by solar panels or electricity from the grid when rates are lower. This stored energy can be used later when the panels aren’t producing electricity (e.g., at night) or during power outages. It effectively bridges the gap between energy generation and usage, allowing homes to rely more on renewable energy sources.<br>
+                                
+                                <h5>2. Backup Power</h5>
+                                
+                                One of the key features of the Powerwall is its ability to provide backup power during outages. When combined with a solar system, it allows a home to remain powered independently of the grid, even in the event of blackouts. For homeowners in areas with unreliable grid electricity or frequent outages, this ensures continuous access to power for essential devices and appliances.<br>
+                                
+                                <h5>3. Self-Consumption and Time-Based Control</h5>
+                                
+                                The Powerwall enhances energy self-consumption by storing surplus solar energy during the day and allowing homeowners to use that energy in the evening, when solar generation is not possible. Additionally, for homes connected to the grid, Tesla’s Powerwall can be configured to store electricity when it’s cheapest (during off-peak hours) and use it during times of higher electricity rates, reducing energy costs through time-based control.<br>
+                                
+                                <h5>4. Integration with Solar Panels and the Grid</h5>
+                                
+                                Powerwall can be integrated with Tesla’s solar panels or Solar Roof, but it is also compatible with third-party solar systems. It can function independently of solar panels, pulling electricity from the grid to store energy. When paired with solar, the system allows a home to rely heavily on self-generated, renewable energy, reducing the need for grid electricity.<br>
+                                
+                                <h5>5. Tesla Mobile App Monitoring</h5>
+                                
+                                Tesla provides a mobile app that allows users to monitor their Powerwall in real-time. The app shows how much energy the home is generating, storing, and consuming. It also provides insights into the home’s energy usage patterns, allowing for more efficient energy management. The app can be used to control and configure different modes, like Backup-only Mode (where the Powerwall reserves all stored energy for emergencies) or Self-powered Mode (to maximize solar usage).<br>
+                                
+                                <h5>6. Capacity and Expandability</h5>
+                                
+                                Each Powerwall unit has a 13.5 kWh energy storage capacity with a 7 kW peak output (5 kW continuous). This is typically sufficient to power an average home for a day, depending on usage. However, if a home requires more energy, multiple Powerwall units can be installed together in a system to increase the overall storage capacity. Tesla allows for stacking up to 10 Powerwalls, which can provide significant energy reserves for larger homes or those with higher energy demands.<br>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="hero-section hero-section-8">
+                <!-- <div class="image-container"> -->
+                <!-- <img class="image image1" src="assets/Model-3.jpg"/> -->
+                <div class="brief">
+                    <h1 class="fs-1">Accessories</h1>                
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-primary btn-blue">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="top">
+            <p>Price before estimated savings is $46,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,000 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+            <p> Price before estimated savings is $44,130, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $5,000 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Model 3 Rear-Wheel Drive and leases not eligible for the Federal Tax Credit. Terms apply.</p>
+            <p>Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+            <p>Price before estimated savings is $76,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply.</p>
+        </div>
+        <div class="bottom">
+            <p>Tesla © 2024</p>
+            <p>Privacy & Legal</p>
+            <p>Vehicle Recalls</p>
+            <p>Contact</p>
+            <p>News</p>
+            <p>Get Updates</p>
+            <p>Locations</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="formValidate.js"></script>
+</body>
+</html>
